@@ -1,0 +1,14 @@
+<h2>Random 1</h2>
+<div class="col-md-8 col-md-offset-2">
+  <div class="form-group">
+    <div class="row">
+    <input type="number" required [(ngModel)]="min"  class="form-control" placeholder="Enter min ...">
+      <input type="number" required [(ngModel)]="max"  class="form-control" placeholder="Enter max ...">
+    </div>
+    <br><br>
+    <button class="btn btn-primary" (click)="callRandom(min,max)">Click Here</button>
+    <h3>The Random number is : {{afisare}}</h3>
+    <br>
+    <h2></h2>
+  </div>
+</div>

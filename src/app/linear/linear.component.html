@@ -1,0 +1,28 @@
+
+<div class="col-md-8 col-md-offset-2">
+  <div class="form-group">
+    <div class="row">
+      <h2> Linear Congruential generator </h2>
+    </div>
+    <br><br>
+    <h1>
+      Definitie
+    </h1>
+    <hr class="featurtte-divider">
+    <h3>
+      Formula matematică a sa este: X(n) = ( a * a + c ) mod m, unde X(0) este seed, a este
+      multiplicatorul, c este constanta. Daca m se alege bine, acest generator are multiple avantaje: este stabil,
+      trece cu bine numeroase teste statistice, se calculează rapid, cere memorie puţină, teoria care sta la baza
+      este bine înţeleasă.
+      <br>
+      <p>M-ul a fost ales 65535 care reprezinta 2 ^16 </p>
+    </h3>
+
+    <br>
+    <br>
+    <button class="btn btn-primary" (click)="callRandom()">Afisare numar generat</button>
+    <h3>Numarul generat este : {{afisare}}</h3>
+    <br>
+    <h2></h2>
+  </div>
+</div>
